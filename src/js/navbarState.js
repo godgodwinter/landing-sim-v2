@@ -3,19 +3,31 @@ import GSAP from './gsap'
 export const navbarLinksState = () => {
   const navigationLinks = [
     {
-      label: 'Platform',
+      label: 'PEMBAYARAN',
+      link: 'http://127.0.0.1:8000/dashboard',
+    },
+    {
+      label: 'SIAKAD',
+      link: 'http://127.0.0.1:8000/siakad/admin/beranda',
+    },
+    {
+      label: 'PPDB',
       link: '#',
     },
     {
-      label: 'Pricing',
+      label: 'GURU',
       link: '#',
     },
     {
-      label: 'Contents',
+      label: 'KEPSEK',
       link: '#',
     },
     {
-      label: 'About',
+      label: 'SISWA',
+      link: '#',
+    },
+    {
+      label: 'WALI MURID',
       link: '#',
     },
   ]
