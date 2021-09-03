@@ -4,6 +4,7 @@ module.exports = {
   mode: 'jit',
   purge: ["./**/*.html"],
   darkMode: 'class',
+  presets:[require('./preset-1')],
   theme: {
     extend: {
       boxShadow: {
